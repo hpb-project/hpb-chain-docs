@@ -41,25 +41,5 @@
 				}
 			}
 		</script>
-		<script>
-			var source = document.documentElement.clientWidth > 768 ? 1 : 4;
-window.woodpecker = window.woodpecker || {
-	app: 38,
-	source: source,
-	env: 'prd',
-	modules: {
-		vhash: {
-			type: 'woodpecker'
-		}
-	}
-};
-(function() {
-	var bw = document.createElement('script');
-	bw.src = 'https://open.woodpeckerlog.com/static/woodpecker.js';
-	bw.async = true;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(bw, s);
-})();
-		</script>
-	</body>
+		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </html>
