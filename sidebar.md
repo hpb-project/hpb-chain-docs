@@ -1,0 +1,5 @@
+- [关于HPB](/intro.md)
+- 开发者文档
+    - [编译和安装](/dev/install.md)
+- FAQ
+    - [FAQ](/faq.md)
